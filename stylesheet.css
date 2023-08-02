@@ -1,0 +1,15 @@
+th{
+    background-color: #96b2ab;
+}
+
+main,tr,td.a {
+    color:black;    background-color: #c0d0cc;
+}
+ 
+main,tr,td.b {
+    background-color: rgb(125, 118, 118);
+}
+
+body {
+    background-color: #000;
+}
