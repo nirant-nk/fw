@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🌐 My first website 🌍</title>
+    <link href="style.css" rel="stylesheet"/>
     
     
     
@@ -17,7 +18,7 @@
         <table cellspacing="20" class="t1">
             <tr>
                 <td>
-                    <img src="nirant.png" alt="profile picture" class="t1" id="1" height="300"/>
+                    <img src="nirant.png" alt="profile picture" class="t1" id="1" height="300" style="mix-blend-mode:darken"/>
                 </td>
                 <td>
                     <h1>Nirant Kale</h1>
@@ -36,12 +37,12 @@
      </div>
      <hr/>
     </header>
-    
+    <center>
     <main>
         <span class="Experience">
                 <h3>My Experience</h3>
                 <span class="Experience_table" >
-                    <table cellspacing="10"  class="t2">
+                    <table cellspacing="10"  class="t2" bgcolor="dimgrey">
                         <thead>
                             <tr>
                                 <th>Dates</th>
@@ -66,9 +67,13 @@
                 </span>
                 
         </span>
-        <hr/>
+        <hr class="h"/>
+        <h3>My skills</h3>
             <span class="skills&rating">
-             <table cellspacing="20" bgcolor="grey">
+                <table class="t">
+                    <tr>
+                        <td>
+             <table class="t">
                 <thead>
                     <tr>
                         <th>Skills</th>
@@ -78,28 +83,59 @@
                 <tbody>
                     <tr>
                         <td>WebDev</td>
-                        <td>⭐⭐⭐⭐</td>
+                        <td>⭐⭐⭐⭐⭐</td>
                     </tr>
                     <tr>
                         <td>AppDev</td>
                         <td>⭐⭐</td>
                     </tr>
                     <tr>
-                        <td>iOS</td>
+                        <td>iOSDev</td>
                         <td>⭐</td>
                     </tr>
                 </tbody>
             </table>
+        </td>
+        <td>
+            <table class="t">
+                <tr>
+                    <td>
+                        UI
+                    </td>
+                    <td>
+                        ⭐⭐⭐
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        UX
+                    </td>
+                    <td>
+                        ⭐⭐
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        CSS
+                    </td>
+                    <td>
+                        ⭐⭐⭐⭐
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
             </span>
-        <hr/>
+        <hr  class="h"/>
         <div class="Hobbies">
             <a href="myhobbies.html"><h3>My hobbies</h3></a>
         </div>
         <hr/>
     </main>
-
-    <footer>
-        <table cellspacing="10">
+</center>
+    <footer >
+        <table cellspacing="50">
             <tr></tr>
             <td>
         <p>
@@ -135,9 +171,10 @@
             <tr><td>
          <label id="l5">Please give your review:</label></td><td>
 
-         <textarea rows="10">Heya!</textarea><br/></td></tr>
+         <textarea rows="10">
+         </textarea><br/></td></tr>
       <tr><td colspan="2">
-         <input type="submit" name="submit"/>      <input type="reset" name="reset"/></td></tr>
+         <input type="submit" name="submit" color="#E1ECC8"/>      <input type="reset" name="reset" color="#E1ECC8"/></td></tr>
          </table>
   </form>
   
